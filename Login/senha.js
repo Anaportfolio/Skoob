@@ -16,11 +16,11 @@ function eyeClick() {
 // Função mostrar senha
 function showPassword() {
   passwordInput.setAttribute("type", "text");
-  eyeSvg.setAttribute("src", "closed.svg");
+  eyeSvg.setAttribute("src", "../closed.svg");
 }
 
 //Função esconder senha
 function hidePassword() {
   passwordInput.setAttribute("type", "password");
-  eyeSvg.setAttribute("src", "open.svg");
+  eyeSvg.setAttribute("src", "../open.svg");
 }
