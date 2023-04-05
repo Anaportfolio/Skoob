@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="1673534722058.png" type="image/x-icon" />
+    <link rel="stylesheet" href="cadastro.css" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <div class="conteiner">
+      <!--LOGO-->
+      <img src="1673534722058.png" alt="Logo" />
+      <!--Título-->
+      <h1>Cadastro</h1>
+      <input type="email" class="email" id="email" placeholder="Email" /> <br />
+      <input
+        type="email"
+        class="verifica_email"
+        id="verifica_email"
+        placeholder="Verifica Email"
+      /><br />
+      <p id="aviso_email"></p>
+      <input type="password" id="senha" placeholder="Senha" /><br />
+      <input type="password" id="verifica_senha" placeholder="Verifica Senha" />
+      <p id="aviso_senha"></p>
+      <p>ou</p>
+      <p>Cadastrar com Facebook</p>
+      <button onclick="verifica()">Cadastrar</button>
+    </div>
+    <script src="verifica.js"></script>
+  </body>
+</html>
