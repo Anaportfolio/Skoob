@@ -18,6 +18,11 @@ body {
   background: #fefefe;
   border: 4px solid #0082cd;
   border-radius: 23px;
-
   margin: 0 auto 0 auto;
+}
+.conteiner img {
+  width: 197px;
+  height: 197px;
+  margin-left: 70px;
+  margin-top: -112px;
 }
