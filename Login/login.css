@@ -32,7 +32,7 @@ body {
   margin-top: -32px;
 }
 .conteiner input {
-  margin-top: 20px;
+  margin: 20px 0 6px 0;
   padding: 4px;
   width: 270px;
   height: 23px;
@@ -52,12 +52,19 @@ body {
   font-size: 16px;
 }
 .conteiner #entrar {
-  width: 95px;
-  height: 37px;
-  border: 2px solid #0082cd;
-  border-radius: 10px;
+  width: 120px;
+  height: 39px;
+  border-radius: 15px;
   margin: 12px 0px 0px 0px;
+  background-color: #0082cd;
+  color: #dedcdc;
+  font-size: 16px;
+  padding: 9px;
+  border: none;
 }
 .conteiner p {
   margin: 9px 0 8px 0;
+}
+.conteiner #cadastro {
+  border: none;
 }
