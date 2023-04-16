@@ -1,12 +1,24 @@
 /* Fundo */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 * {
-  margin: 0;
+  margin: 2%;
   padding: 0px;
 }
 body {
-  margin: 9%;
+  margin: 0;
   font-family: "Inter", sans-serif;
+}
+#voltar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #0082cd;
+  border: none;
+  padding: 5px;
+}
+#voltar #img_voltar {
+  width: 20px;
+  height: 20px;
 }
 /* Conteiner */
 .conteiner {
