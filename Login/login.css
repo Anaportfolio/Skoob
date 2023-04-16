@@ -8,18 +8,6 @@ body {
   margin: 0;
   font-family: "Inter", sans-serif;
 }
-#voltar {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  background: #0082cd;
-  border: none;
-  padding: 5px;
-}
-#voltar #img_voltar {
-  width: 20px;
-  height: 20px;
-}
 /* Conteiner */
 .conteiner {
   box-sizing: border-box;
