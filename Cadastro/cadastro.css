@@ -1,15 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 * {
-  margin: 0;
+  margin: 2%;
   padding: 0px;
 }
 body {
-  display: flex;
   padding: 0;
-  margin: 10%;
+  margin: 0;
   font-family: "Inter", sans-serif;
 }
-
+#voltar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #0082cd;
+  border: none;
+  padding: 5px;
+}
+#voltar #img_voltar {
+  width: 20px;
+  height: 20px;
+}
 /* Conteiner*/
 .conteiner {
   box-sizing: border-box;
@@ -30,10 +40,10 @@ body {
 .conteiner h1 {
   font-size: 27px;
   color: #0082cd;
-  margin-top: -32px;
+  margin-top: -41px;
 }
 .conteiner input {
-  margin-top: 9px;
+  margin-top: 3px;
   padding: 4px;
   width: 270px;
   height: 23px;
@@ -42,14 +52,16 @@ body {
   border-radius: 5px;
   outline: none;
 }
-.conteiner input:hover {
-  border: 4px solid #057abe;
-}
 .conteiner p {
-  margin-top: 8px;
+  margin-top: 1px;
+}
+.conteiner a {
+  text-decoration: none;
+  color: #0082cd;
+  font-size: 16px;
 }
 .conteiner button {
-  margin-top: 13px;
+  margin-top: 9px;
   width: 143px;
   height: 39px;
   background: #0082cd;
@@ -57,7 +69,4 @@ body {
   border: none;
   color: white;
   font-size: 16px;
-}
-.conteiner button:hover {
-  background: #057abe;
 }

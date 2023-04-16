@@ -13,6 +13,11 @@
     <title>Cadastro</title>
   </head>
   <body>
+    <a href="../Login/login.html">
+      <button id="voltar">
+        <img src="../img/voltar.png" id="img_voltar" alt="Voltar" />
+      </button>
+    </a>
     <div class="conteiner">
       <img src="../img/1673534722058.png" alt="Logo" />
 
@@ -29,7 +34,11 @@
       <input type="password" id="verifica_senha" placeholder="Verifica Senha" />
       <p id="aviso_senha"></p>
       <p>ou</p>
-      <p>Cadastrar com Facebook</p>
+      <a
+        href="https://www.facebook.com/login.php?skip_api_login=1&api_key=252371588132802&kid_directed_site=0&app_id=252371588132802&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv2.8%2Fdialog%2Foauth%3Fclient_id%3D252371588132802%26state%3D6fd9d31ee717792f7c71b7b07e2f1186%26response_type%3Dcode%26sdk%3Dphp-sdk-5.6.2%26redirect_uri%3Dhttps%253A%252F%252Fwww.skoob.com.br%252Flogin%252Ffacebook%252F%26scope%3Demail%252Cuser_birthday%252Cuser_location%252Cpublic_profile%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D57bfa37b-a720-43c7-93ba-515d97fc6205%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.skoob.com.br%2Flogin%2Ffacebook%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D6fd9d31ee717792f7c71b7b07e2f1186%23_%3D_&display=page&locale=pt_BR&pl_dbl=0"
+        >Cadastrar com Facebook</a
+      >
+      <br />
       <button onclick="verifica()">Cadastrar</button>
     </div>
     <script src="verifica.js"></script>
