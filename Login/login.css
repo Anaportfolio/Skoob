@@ -5,9 +5,7 @@
   padding: 0px;
 }
 body {
-  display: flex;
-  padding: 0;
-  margin: 10%;
+  margin: 9%;
   font-family: "Inter", sans-serif;
 }
 /* Conteiner */
@@ -32,7 +30,7 @@ body {
   margin-top: -32px;
 }
 .conteiner input {
-  margin: 20px 0 6px 0;
+  margin: 20px 0 8px 0;
   padding: 4px;
   width: 270px;
   height: 23px;
@@ -49,7 +47,7 @@ body {
 .conteiner a {
   text-decoration: none;
   color: #0082cd;
-  font-size: 16px;
+  font-size: 15px;
 }
 .conteiner #entrar {
   width: 120px;
@@ -57,14 +55,21 @@ body {
   border-radius: 15px;
   margin: 12px 0px 0px 0px;
   background-color: #0082cd;
-  color: #dedcdc;
-  font-size: 16px;
+  color: #fefefe;
+  font-size: 18px;
   padding: 9px;
   border: none;
 }
 .conteiner p {
-  margin: 9px 0 8px 0;
+  margin: 9px 0 5px 0;
 }
 .conteiner #cadastro {
   border: none;
+  margin-top: 7px;
+  font-size: 14px;
+  background-color: #fefefe;
+  border: 3px solid #0082cd;
+  border-radius: 15px;
+  height: 28px;
+  color: #0082cd;
 }
