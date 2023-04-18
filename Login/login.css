@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 * {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 body {
-  margin: 9%;
+  margin: 0;
   font-family: "Inter", sans-serif;
 }
 /* Conteiner */
@@ -15,13 +15,17 @@ body {
   background: #fefefe;
   border: 4px solid #0082cd;
   border-radius: 23px;
-  margin: 0 auto 0 auto;
-  text-align: center;
+
+  margin: 130px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .conteiner img {
   width: 197px;
   height: 197px;
-  margin-top: -112px;
+  margin-top: -128px;
 }
 .conteiner h1 {
   font-size: 27px;
@@ -29,7 +33,7 @@ body {
   margin-top: -32px;
 }
 .conteiner input {
-  margin: 8px 0 8px 0;
+  margin: 15px 0 3px 0;
   padding: 4px;
   width: 270px;
   height: 23px;
@@ -52,7 +56,7 @@ body {
   width: 120px;
   height: 39px;
   border-radius: 15px;
-  margin: 12px 0px 0px 0px;
+  margin: 1px 0px 1px 0px;
   background-color: #0082cd;
   color: #fefefe;
   font-size: 18px;
@@ -60,7 +64,7 @@ body {
   border: none;
 }
 .conteiner p {
-  margin: 9px 0 5px 0;
+  margin: 10px 0 5px 0;
 }
 .conteiner #cadastro {
   border: none;
