@@ -25,12 +25,12 @@ body {
 .conteiner img {
   width: 197px;
   height: 197px;
-  margin-top: -128px;
+  margin-top: -134px;
 }
 .conteiner h1 {
   font-size: 27px;
   color: #0082cd;
-  margin-top: -32px;
+  margin-top: -29px;
 }
 .conteiner input {
   margin: 15px 0 3px 0;
@@ -46,6 +46,7 @@ body {
   text-decoration: none;
   color: #0082cd;
   font-size: 16px;
+  margin: 15px 0 15px 0;
 }
 .conteiner a {
   text-decoration: none;
