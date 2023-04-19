@@ -8,7 +8,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 /* Container*/
-.conteiner {
+.container {
   box-sizing: border-box;
   width: 366px;
   height: 424px;
@@ -23,19 +23,19 @@ body {
   align-items: center;
 }
 /* Logo */
-.conteiner img {
+.container img {
   width: 197px;
   height: 197px;
-  margin-top: -133px;
+  margin-top: -129px;
 }
 /* Título */
-.conteiner h1 {
+.container h1 {
   font-size: 27px;
   color: #0082cd;
   margin: -30px 0 10px 0;
 }
 /* Caixas de textos  */
-.conteiner input {
+.container input {
   margin: 5px 0 5px 0;
   padding: 4px;
   width: 270px;
@@ -46,20 +46,20 @@ body {
   outline: none;
 }
 /* Texto */
-.conteiner p {
+.container p {
   margin-top: 3px;
   margin-bottom: 4px;
 }
 /* Botão do Facebook */
-.conteiner a {
+.container a {
   text-decoration: none;
   color: #0082cd;
   font-size: 16px;
   margin: 2px 0 7px 0;
 }
 /* Botão Cadastrar */
-.conteiner button {
-  margin-top: 1px;
+.container button {
+  margin-top: 5px;
   width: 143px;
   height: 39px;
   background: #0082cd;
