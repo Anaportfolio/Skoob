@@ -8,7 +8,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 /* Conteiner */
-.conteiner {
+.container {
   box-sizing: border-box;
   width: 366px;
   height: 424px;
@@ -22,17 +22,20 @@ body {
   justify-content: center;
   align-items: center;
 }
-.conteiner img {
+/* Logo */
+.container img {
   width: 197px;
   height: 197px;
   margin-top: -134px;
 }
-.conteiner h1 {
+/* Título */
+.container h1 {
   font-size: 27px;
   color: #0082cd;
   margin-top: -29px;
 }
-.conteiner input {
+/* Caixas de textos */
+.container input {
   margin: 15px 0 3px 0;
   padding: 4px;
   width: 270px;
@@ -42,18 +45,21 @@ body {
   border-radius: 5px;
   outline: none;
 }
-.conteiner #esqueci {
+/* Botão Equeci a senha */
+.container #esqueci {
   text-decoration: none;
   color: #0082cd;
   font-size: 16px;
   margin: 15px 0 15px 0;
 }
-.conteiner a {
+/* Botão Entrar com Facebook */
+.container a {
   text-decoration: none;
   color: #0082cd;
   font-size: 15px;
 }
-.conteiner #entrar {
+/* Botão Entrar */
+.container #entrar {
   width: 120px;
   height: 39px;
   border-radius: 15px;
@@ -64,10 +70,12 @@ body {
   padding: 9px;
   border: none;
 }
-.conteiner p {
+/* Texto */
+.container p {
   margin: 10px 0 5px 0;
 }
-.conteiner #cadastro {
+/* Botão Cadastro */
+.container #cadastro {
   border: none;
   margin-top: 7px;
   font-size: 14px;
