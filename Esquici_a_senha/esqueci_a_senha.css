@@ -7,7 +7,8 @@ body {
   margin: 0;
   font-family: "Inter", sans-serif;
 }
-.conteiner {
+/* Container */
+.container {
   box-sizing: border-box;
   width: 450px;
   height: 330px;
@@ -21,16 +22,19 @@ body {
   justify-content: center;
   align-items: center;
 }
-.conteiner img {
+/* Logo */
+.container img {
   width: 197px;
   height: 197px;
   margin: -148px 0 0 0;
 }
-.conteiner h1 {
+/* Título */
+.container h1 {
   font-size: 27px;
   color: #0082cd;
 }
-.conteiner input {
+/* Caixas de textos */
+.container input {
   margin-top: 15px;
   padding: 4px;
   width: 270px;
@@ -40,7 +44,8 @@ body {
   border-radius: 5px;
   outline: none;
 }
-.conteiner button {
+/* Botão salvar senha nova  */
+.container button {
   margin-top: 25px;
   width: 143px;
   height: 39px;
