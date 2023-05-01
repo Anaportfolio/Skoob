@@ -1,0 +1,79 @@
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 18% auto 0 auto;
+}
+.c-loader {
+  border: 3px solid #fefefe;
+  border-radius: 35px;
+  height: 50px;
+  width: 50px;
+  animation: carregando 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes carregando {
+  0% {
+    border-top-color: #0082cd;
+  }
+  5% {
+    border-top-color: #0082cd;
+  }
+  10% {
+    border-top-color: #0082cd;
+  }
+  15% {
+    border-top-color: #0082cd;
+  }
+  20% {
+    border-top-color: #0082cd;
+  }
+  25% {
+    border-right-color: #0082cd;
+  }
+  30% {
+    border-right-color: #0082cd;
+  }
+  35% {
+    border-right-color: #0082cd;
+  }
+  40% {
+    border-right-color: #0082cd;
+  }
+  45% {
+    border-right-color: #0082cd;
+  }
+  50% {
+    border-bottom-color: #0082cd;
+  }
+  55% {
+    border-bottom-color: #0082cd;
+  }
+  60% {
+    border-bottom-color: #0082cd;
+  }
+  65% {
+    border-bottom-color: #0082cd;
+  }
+  70% {
+    border-bottom-color: #0082cd;
+  }
+  75% {
+    border-left-color: #0082cd;
+  }
+  80% {
+    border-left-color: #0082cd;
+  }
+  85% {
+    border-left-color: #0082cd;
+  }
+  90% {
+    border-left-color: #0082cd;
+  }
+  95% {
+    border-left-color: #0082cd;
+  }
+  100% {
+    border-left-color: #0082cd;
+  }
+}
