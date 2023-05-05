@@ -9,10 +9,13 @@
       href="../img/1673534722058.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="../CSS/login.css" />
     <title>Login</title>
   </head>
   <body>
+    <div class="wrapper">
+      <div class="c-loader"></div>
+    </div>
     <!--Container-->
     <div class="container">
       <!-- Logo -->
@@ -52,5 +55,12 @@
         >
       </p>
     </div>
+    <script>
+      const fade = () => {
+        const wrapper = document.querySelector(".wrapper");
+        wrapper.classList.add("fade");
+      };
+      window.addEventListener("load", fade);
+    </script>
   </body>
 </html>
