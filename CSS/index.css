@@ -40,3 +40,32 @@ li {
   font-size: 18px;
   font-weight: bold;
 }
+.wrapper {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-color: #f3f3f3;
+  display: grid;
+  place-items: center;
+  transition: opacity 0.25s visibility 1s;
+}
+.wrapper .c-loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  animation: carregando 1s linear infinite;
+}
+@keyframes carregando {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fade {
+  opacity: 0;
+  visibility: hidden;
+}
