@@ -1,45 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
-html,
-body,
-header {
-  margin: 0;
-  padding: 0;
-  font-family: "Inter", sans-serif;
-}
-.container {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 7vw;
-  background-color: #fefefe;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border: 3px solid #0082cd;
-}
-img {
-  width: 250px;
-  height: 60px;
-}
-ul,
-li {
-  list-style: none;
-  display: flex;
-  padding: 1em;
-  margin: 0;
-}
-a {
-  text-decoration: none;
-}
-li {
-  cursor: pointer;
-  margin: 0.5em;
-  padding: 10px 15px;
-  color: #0082cd;
-  font-size: 18px;
-  font-weight: bold;
-}
+
+/* Loading */
 .wrapper {
   position: fixed;
   inset: 0;
