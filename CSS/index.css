@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
-
+/* Corpo */
+body {
+  margin: 0;
+  padding: 0;
+}
 /* Loading */
 .wrapper {
   position: fixed;
@@ -29,4 +33,34 @@
 .fade {
   opacity: 0;
   visibility: hidden;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fefefe;
+  height: 80px;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  padding-block: 1px;
+}
+nav ul a {
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 45px;
+  color: #0082cd;
+}
+nav .logo {
+  margin-right: 50px;
+  margin-left: 25px;
+  height: 60px;
+  width: 200px;
 }
