@@ -38,9 +38,6 @@ body {
 /* Navbar */
 nav {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
   background-color: #fefefe;
   height: 80px;
   padding: 10px;
@@ -48,8 +45,8 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 25px;
-  padding-block: 1px;
+  gap: 100px;
+  flex-direction: row;
 }
 nav ul a {
   text-decoration: none;
@@ -57,10 +54,17 @@ nav ul a {
   margin-top: 15px;
   margin-left: 45px;
   color: #0082cd;
+  cursor: pointer;
 }
 nav .logo {
   margin-right: 50px;
   margin-left: 25px;
   height: 60px;
   width: 200px;
+}
+
+/* Carousel */
+.propaganda {
+  width: 1366px;
+  height: 260px;
 }
