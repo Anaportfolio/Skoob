@@ -5,7 +5,7 @@ var slide = document.querySelector(".propaganda");
 var imgs = ["img/propaganda_1.png", "img/propaganda_2.png"];
 
 // Atribuindo o tempo que o slide vai demorar para passar as imagens
-var tempo = 2000; // 2000 milisegundos = 2 segundos
+var tempo = 4000; // 2000 milisegundos = 2 segundos
 
 // Atribuindo o valor do contado
 var contador = 0;
