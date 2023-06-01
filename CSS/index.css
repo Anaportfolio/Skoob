@@ -96,3 +96,33 @@ nav .logo {
   left: 0;
   transform: rotate(182deg);
 }
+/* Box */
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+/* Os mais populares */
+.cotainer_populares {
+  margin-top: 50px;
+  border: 5px solid #0082cd;
+  width: 1250px;
+  padding: 24px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.cotainer_populares img {
+  border-radius: 10px;
+  margin: 60px;
+}
+.cotainer_populares img:hover {
+  height: 180px;
+  width: 160px;
+  box-shadow: 10px 5px 3px 1px rgba(0, 0, 0, 0.281);
+  cursor: pointer;
+}
