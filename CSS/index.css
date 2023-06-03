@@ -39,7 +39,7 @@ body {
 nav {
   display: flex;
   background-color: #fefefe;
-  height: 80px;
+  height: 70px;
   padding: 10px;
 }
 nav ul {
@@ -96,6 +96,7 @@ nav .logo {
   left: 0;
   transform: rotate(182deg);
 }
+
 /* Box */
 .box {
   display: flex;
@@ -111,6 +112,7 @@ nav .logo {
   padding: 24px;
   height: 150px;
   border-radius: 10px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,8 +123,18 @@ nav .logo {
   margin: 60px;
 }
 .cotainer_populares img:hover {
-  height: 180px;
-  width: 160px;
+  height: 170px;
+  width: 130px;
   box-shadow: 10px 5px 3px 1px rgba(0, 0, 0, 0.281);
   cursor: pointer;
+}
+.cotainer_populares button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  background-color: #0082cd;
+}
+.cotainer_populares button:hover {
+  background-color: #3498db;
 }
