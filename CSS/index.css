@@ -124,7 +124,7 @@ nav .logo {
 }
 .cotainer_populares img:hover {
   height: 170px;
-  width: 130px;
+  width: 125px;
   box-shadow: 10px 5px 3px 1px rgba(0, 0, 0, 0.281);
   cursor: pointer;
 }
