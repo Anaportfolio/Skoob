@@ -45,14 +45,15 @@ body {
 
 /* Caixa de texto */
 .container textarea {
-  padding: 10px;
+  padding: 15px;
   outline: none;
-  border: 3px solid #0082cd;
+  border: 3px none;
   border-radius: 10px;
   width: 320px;
   height: 126px;
   background-color: #dedcdc;
   font-size: 15px;
+  resize: none;
 }
 
 /* Botão */
@@ -65,4 +66,14 @@ body {
   background-color: #0082cd;
   color: #fefefe;
   font-size: 19px;
+}
+button:hover {
+  background-color: #0f98e8;
+}
+
+/* Descrição */
+.container .description {
+  font-size: 15px;
+  padding: 10px 50px; /*Top/bottom - right/left*/
+  text-align: left;
 }
