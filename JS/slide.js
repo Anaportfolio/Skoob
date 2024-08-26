@@ -1,26 +1,16 @@
-//Capturando as propiedades do elemento identificado
-var slide = document.querySelector(".propaganda");
+var radio = document.querySelector(".manual-btn");
+var cont = 1;
+document.getElementById("radio1").checked = true;
 
-// Criando um Array com as imagens
-var imgs = ["img/propaganda_1.png", "img/propaganda_2.png"];
+setInterval(() => {
+  proximaImg();
+}, 5000);
 
-// Atribuindo o tempo que o slide vai demorar para passar as imagens
-var tempo = 4000; // 2000 milisegundos = 2 segundos
+function proximaImg() {
+  cont++;
 
-// Atribuindo o valor do contado
-var contador = 0;
-
-// Criando a função para fazer a troca das imagens
-function moveSlide() {
-  slide.src = imgs[contador];
-
-  if (contador < imgs.length - 1) {
-    contador++;
-  } else {
-    contador = 0;
+  if (cont > 2) {
+    cont = 1;
   }
-  //Usamos a função setTimeout() para executar um determinado trecho de código a cada período de tempo
-  setTimeout("moveSlide()", tempo);
+  document.getElementById("radio" + cont).checked = true;
 }
-// Usamos a função para executar o Slide quando a página for carregada pela primeiara vez
-window.onload = moveSlide;

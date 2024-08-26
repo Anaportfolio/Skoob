@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+:root {
+  --border: 0.1rem solid #0082cd;
+  --white: #ffffff;
+  --dark-blue: #0082cd;
+  --light-blue: #0f98e8;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+section {
+  padding: 3rem 2rem;
+  margin: 0 auto;
+  max-height: 1200px;
+}
+
+/* Navegação */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+.header section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: var(--white);
+}
+.header section img {
+  width: 177px;
+}
+.navbar a {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  margin: 0.5rem;
+  padding: 0.7rem 2rem;
+  display: inline-block;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+.navbar a:hover {
+  background-color: var(--light-blue);
+}
+
+/* Carrossel */
+section.slider {
+  margin-top: 6.5rem;
+  width: 100%;
+  height: 0;
+  padding: 0;
+}
+.slider-content {
+  width: 400%;
+  height: auto;
+  display: flex;
+}
+.slider-content input {
+  display: none;
+}
+.slide-box {
+  width: 25%;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+.slide-box img {
+  width: 100%;
+  transition: 1s;
+}
+.nav-manual,
+.nav-auto {
+  position: absolute;
+  width: 100%;
+  margin-top: 21%;
+  display: flex;
+  justify-content: center;
+}
+.nav-manual .manual-btn,
+.nav-auto div {
+  border: 1px solid var(--white);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.nav-manual .manual-btn:not(:last-child),
+.nav-auto div:not(:last-child) {
+  margin-right: 10px;
+}
+.nav-manual .manual-btn:hover {
+  background-color: var(--white);
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1,
+#radio2:checked ~ .nav-auto .auto-btn2 {
+  background-color: var(--white);
+}
+#radio1:checked ~ .primeiro {
+  margin-left: 0%;
+}
+#radio2:checked ~ .segundo {
+  margin-left: -25%;
+}
+
+/* Introdução */
+.texto {
+  margin: 50px 120px 0 120px;
+}
+.texto h1 {
+  color: var(--dark-blue);
+  font-size: 37px;
+}
+.texto p {
+  font-size: 20px;
+  text-align: justify;
+  margin: 15px 70px 30px 30px;
+  text-indent: 4em;
+  line-height: 32px;
+}
+.texto a {
+  margin: 20px 0 0 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--dark-blue);
+  padding: 0.7rem 1.2rem;
+  color: var(--white);
+  font-size: 18px;
+}
+.texto a:hover {
+  background-color: var(--light-blue);
+}
+
+/* Lançamentos */
+.box {
+  width: 1200px;
+  height: 250px;
+  border: 4px solid var(--dark-blue);
+  margin: 50px 120px 50px 120px;
+  border-radius: 15px;
+}
+.box h3 {
+  color: var(--dark-blue);
+  text-align: center;
+  font-size: 27px;
+  margin-top: 15px;
+}
